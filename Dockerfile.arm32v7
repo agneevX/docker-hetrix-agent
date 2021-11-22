@@ -22,7 +22,7 @@ RUN apt install -y wget iproute2 cron && \
 RUN mkdir -p /etc/hetrixtools_dl
 
 # Download agent from hetrixtools repo
-RUN wget https://raw.github.com/hetrixtools/agent/master/hetrixtools_install.sh -P /etc/hetrixtools_dl
+RUN wget hhttps://raw.github.com/agneevX/hetrixtools-agent/docker/hetrixtools_install.sh -P /etc/hetrixtools_dl
 
 # Copy file as the install command will delete the original file
 RUN cp etc/hetrixtools_dl/hetrixtools_install.sh etc/hetrixtools_dl/hetrixtools_install_cp.sh
